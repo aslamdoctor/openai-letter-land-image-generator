@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #f1f1f1;
+}
+
+.app-wrapper{
+  width: 390px;
+}
+
+.generated-image{
+  height: 342px;
+
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.selector{
+  appearance: none;
+  background-color: transparent;
+  position: relative;
+  background:url(./assets/chevron-down.svg) center right 5px no-repeat #fff;
+
+  &:disabled{
+    background:url(./assets/chevron-down.svg) center right 5px no-repeat #e7e7e7;
+    cursor:not-allowed;
+  }
+}
