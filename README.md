@@ -1,4 +1,4 @@
-# Letter Land App
+# Letter World App
 
 ### Image Generator App using React & OpenAI API
 
@@ -15,4 +15,4 @@ npm run dev
 ```
 
 ### Demo
-![](https://github.com/aslamdoctor/openai-letter-land-image-generator/blob/main/demo.gif)
+![](https://github.com/aslamdoctor/openai-letter-world-image-generator/blob/main/demo.gif)
